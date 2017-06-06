@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_menu" />
+
+    <TextView
+        android:id="@+id/progression_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/division_1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/repairs_progression_time"
+        android:drawablePadding="10dp"
+        android:gravity="center|left"
+        android:padding="10dp"
+        android:text="时间" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/background_grey" />
+
+    <TextView
+        android:id="@+id/progression_aderss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/division_1"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@mipmap/repairs_progression_adress"
+        android:drawablePadding="10dp"
+        android:gravity="center|left"
+        android:padding="10dp"
+        android:text="地点" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/background_grey" />
+
+    <TextView
+        android:id="@+id/progression_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/division_1"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@mipmap/repairs_progression_content"
+        android:drawablePadding="10dp"
+        android:gravity="center|left"
+        android:padding="10dp"
+        android:text="内容" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/background_grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/apply_for"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/apply_off" />
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/grey_dark" />
+
+        <ImageView
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/send_order_off" />
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/grey_dark" />
+
+        <ImageView
+            android:id="@+id/repairs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/repairs_off" />
+
+        <TextView
+            android:id="@+id/line3"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/grey_dark" />
+
+        <ImageView
+            android:id="@+id/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/finish_off" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/background_grey" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/repairs_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/title"
+            android:background="@mipmap/repairs_ing" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/base_color"
+            android:gravity="center"
+            android:text="您反映的问题正在处理，感谢支持！"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

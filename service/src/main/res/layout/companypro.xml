@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_menu" />
+
+    <TextView
+        android:id="@+id/know_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="11111"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/know_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:gravity="right"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingTop="3dp"
+        android:text="22222"
+        android:visibility="gone"
+        />
+
+    <WebView
+        android:id="@+id/know_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/no_data"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:text="@string/no_data"
+        android:textSize="22sp"
+        android:textColor="@color/grey_light"
+        android:visibility="gone" />
+
+</LinearLayout>

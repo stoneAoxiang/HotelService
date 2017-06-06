@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_grey"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_layout"
+        layout="@layout/top_menu" />
+
+
+    <com.hotel.service.ui.custom.PullToRefreshView
+        android:id="@+id/refreshable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.hotel.service.ui.custom.ScrollViewExtend
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.hotel.service.ui.custom.HomeListView
+                    android:id="@+id/content_gv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:dividerHeight="3dp"
+                    android:cacheColorHint="#00000000"
+                    android:divider="#00000000" />
+
+                <include layout="@layout/process_bar" />
+
+            </LinearLayout>
+        </com.hotel.service.ui.custom.ScrollViewExtend>
+    </com.hotel.service.ui.custom.PullToRefreshView>
+
+
+</LinearLayout>

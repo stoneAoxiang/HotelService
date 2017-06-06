@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_grey">#efefef</color>
+    <color name="base_color">#f32837</color>
+    <color name="base_color_light">#fc3937</color>
+    <color name="base_color_dark">#e4002b</color>
+
+    <color name="grey">#969696</color>
+    <color name="grey_dark">#636464</color>
+    <color name="grey_light">#b5b5b6</color>
+    <color name="white">#ffffff</color>
+    <color name="info_second">#2d2d2d</color>
+    <color name="black">#000000</color>
+    <color name="job_choose_title">#787878</color>
+
+    <color name="tab_text_font_color_on">#fb7b8f</color>
+    <color name="tab_text_font_color_off">#b5b5b6</color>
+    <color name="tab_background_color">#efefef</color>
+
+    <color name="debug_border_color">#051bb3</color>
+    <color name="debug_progress_bg_color">#77c0e997</color>
+    <color name="debug_tool_bg_color">#ace9ddf6</color>
+    <color name="debug_tool_pressed_bg_color">#ac827b8f</color>
+
+    <color name="item_text_color">#969696</color>
+
+
+    <color name="newinfo_pink">#e9546b</color>
+    <color name="newinfo_blue">#8dc3df</color>
+
+    <color name="newinfo_purple">#f2269a</color>
+    <color name="newinfo_gary">#cecccc</color>
+    <color name="newinfo_pink1">#fb7b8f</color>
+    <color name="newinfo_gary1">#969292</color>
+    <color name="newinfo_blue1">#e9526a</color>
+    <color name="newinfo_red">#a2ddfc</color>
+    <color name="newinfo_b">#0a81db</color>
+    <color name="newinfo_w">#cecccc</color>
+    <color name="newinfo_y">#e99554</color>
+
+</resources>

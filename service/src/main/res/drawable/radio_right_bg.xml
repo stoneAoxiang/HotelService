@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <!--<item android:drawable="@drawable/left_yellow" android:state_checked="true"/>-->
+    <!--<item android:drawable="@drawable/left_white" android:state_checked="false"/>  -->
+
+    <item android:drawable="@drawable/shape_radio_green_click" android:state_checked="true"/>
+    <item android:drawable="@drawable/shape_right_radio_green" android:state_checked="false"/>
+</selector>

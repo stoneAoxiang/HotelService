@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_menu" />
+
+    <TextView
+        android:id="@+id/know_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="11111"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/know_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/grey"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/xian_img"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/newinfo_gary" />
+
+    <ImageView
+        android:id="@+id/info_desc_content"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+    <WebView
+        android:id="@+id/know_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+    <include layout="@layout/process_bar" />
+
+</LinearLayout>

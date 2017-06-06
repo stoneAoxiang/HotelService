@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_click_bg"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/offer_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:gravity="left|center"
+        android:text="职位"
+        android:textColor="@color/grey_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/position"
+        android:layout_gravity="center"
+        android:gravity="left|center"
+        android:textColor="@color/base_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/work_address"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/position"
+        android:layout_gravity="center"
+        android:gravity="left|center" />
+
+
+    <TextView
+        android:id="@+id/people_num"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/salary"
+        android:layout_gravity="center"
+        android:gravity="left|center" />
+
+    <TextView
+        android:id="@+id/work_experience"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/salary"
+        android:layout_gravity="center"
+        android:gravity="left|center" />
+
+    <TextView
+        android:id="@+id/company_name"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/people_num"
+        android:layout_gravity="center"
+        android:gravity="left|center" />
+
+    <TextView
+        android:id="@+id/offer_time"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/people_num"
+        android:gravity="left|center" />
+
+</RelativeLayout>

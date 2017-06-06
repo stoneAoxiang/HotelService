@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/logo_bc"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_menu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/logo" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:alpha="0.45"
+        android:background="@drawable/black_shape_click_bg"
+        android:drawableLeft="@mipmap/icon_login_name"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/user_name"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.45"
+        android:background="@drawable/black_shape_click_bg"
+        android:drawableLeft="@mipmap/icon_login_password"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/save_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_custom_define"
+            android:paddingLeft="3dp"
+            android:text="@string/save_password"
+            android:textColor="@color/grey_dark"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="忘记密码?"
+            android:textColor="@color/grey_dark"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/login_bt"
+            style="@style/text_style"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/register_login_hight"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/white_shape_click_bg"
+            android:text="@string/login"
+            android:textColor="@color/red_text_click_color" />
+
+        <Button
+            android:id="@+id/regesitor_bt"
+            style="@style/text_style"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/register_login_hight"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/red_shape_click_bg"
+            android:text="@string/register"
+            android:textColor="@color/white_text_click_color" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

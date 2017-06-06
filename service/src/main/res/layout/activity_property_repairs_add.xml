@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_menu" />
+
+    <LinearLayout
+        android:id="@+id/project_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/edit_coner_style"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/project_name"
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/project_name"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/project_draw_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/selector_job_title_draw_right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/repairs_area_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/edit_coner_style"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/repairs_area"
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/repairs_area"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/area_draw_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/selector_job_title_draw_right"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/link_man"
+        style="@style/text_style"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/edit_coner_style"
+        android:gravity="center_vertical"
+        android:hint="@string/link_man"
+        android:singleLine="true"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/repair_community"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edit_coner_style"
+        android:gravity="top"
+        android:hint="请输入报修详情" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:orientation="vertical">
+
+
+        <GridView
+            android:id="@+id/photo_img_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:columnWidth="80dp"
+            android:horizontalSpacing="2dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="spacingWidth"
+            android:verticalSpacing="10dp" />
+
+
+        <ImageView
+            android:id="@+id/take_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_shape_click_bg"
+            android:padding="5dp"
+            android:src="@mipmap/photo_pic" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/subsmit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/red_shape_click_bg"
+            android:gravity="center"
+            android:text="提交报事报修"
+            android:textColor="@color/button_text_click_color"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

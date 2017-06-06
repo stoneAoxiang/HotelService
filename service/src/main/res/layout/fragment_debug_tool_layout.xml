@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/debug_tool_width"
+    android:layout_height="match_parent"
+    android:background="@color/debug_tool_bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/action_bar_height">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:drawableLeft="@mipmap/debug_icon"
+            android:gravity="center"
+            android:text="DebugTool"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/debug_screen"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="分辨率:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_screen_density_dpi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="DENSITY_DPI:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_screen_density"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="DENSITY:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+
+        <TextView
+            android:id="@+id/debug_screen_xdpi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="XDPI:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_screen_ydpi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="YDPI:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_build_time"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="编译时间:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_build_type"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="编译类型:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_build_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Build Number:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_build_git"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="GitSha:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_version_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="VersionCode:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <TextView
+            android:id="@+id/debug_version_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="VersionName:\t" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <Spinner
+            android:id="@+id/debug_down_chooser"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:background="@drawable/selector_debug_item_bg"
+            android:dropDownSelector="@null"
+            android:dropDownWidth="@dimen/debug_tool_width"
+            android:entries="@array/debug_down_load_urls"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:popupBackground="@color/debug_tool_bg_color"
+            android:spinnerMode="dropdown" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <EditText
+            android:id="@+id/debug_down_custom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:background="@drawable/debug_build_number_edt_bg"
+            android:gravity="center_vertical"
+            android:hint="build number or download link"
+            android:paddingLeft="5dp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <View
+            android:id="@+id/debug_down_custom_order"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <com.hotel.service.ui.widget.ProgressTextView
+            android:id="@+id/debug_download_debug"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:background="@drawable/selector_debug_item_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="download_debug" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+        <Button
+            android:id="@+id/debug_cancel_download"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:background="@drawable/selector_debug_item_bg"
+            android:padding="5dp"
+            android:text="Cancel Download"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/debug_cancel_download_border"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/debug_delete_cache"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/debug_tool_item_height"
+            android:background="@drawable/selector_debug_item_bg"
+            android:padding="5dp"
+            android:text="Delete Cache" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/debug_border_color" />
+
+    </LinearLayout>
+
+</ScrollView>

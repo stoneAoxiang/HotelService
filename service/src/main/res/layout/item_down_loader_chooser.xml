@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/debug_tool_item_height"
+    android:background="@color/debug_tool_bg_color"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:padding="5dp"
+    android:singleLine="true" />

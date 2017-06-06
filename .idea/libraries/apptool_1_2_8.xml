@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="apptool-1.2.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a0a55acc782f4edbcbb8bb4fe8c1018ae77ed1b1/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a0a55acc782f4edbcbb8bb4fe8c1018ae77ed1b1/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sharyuke/apptool/1.2.8/c60ddab50100d6917e0cbe0462ab6b32aca69a/apptool-1.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

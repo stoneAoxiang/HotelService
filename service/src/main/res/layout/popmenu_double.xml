@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/pop_refresh_layout_first"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/first_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/background_grey"
+            android:dividerHeight="0.5dp"
+            android:scrollbars="none" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:src="@color/background_grey" />
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/pop_refresh_layout_second"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/second_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/background_grey"
+            android:dividerHeight="0.5dp"
+            android:scrollbars="none" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

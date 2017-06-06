@@ -1,0 +1,85 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light" />
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="Theme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+
+    <!-- 登录按钮样式 -->
+    <style name="login_button_style">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/register_login_font_size</item>
+    </style>
+
+    <style name="ratingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar_full</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置title -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置边框 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 设置半透明 -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 设置全屏 -->
+    </style>
+
+    <!-- 文字的样式 -->
+    <style name="text_style">
+        <item name="android:textSize">@dimen/text_font_size</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+   <!-- <style name="home_text">
+        <item name="android:textSize">@dimen/home_function_text_size</item>
+        &lt;!&ndash;<item name="android:textColor">@color/home_function_text_color</item>&ndash;&gt;
+        <item name="android:textColor">@color/grey</item>
+    </style>-->
+
+    <style name="function_block_text">
+        <item name="android:textSize">@dimen/function_text_size</item>
+        <!--<item name="android:textColor">@color/home_function_text_color</item>-->
+        <item name="android:textColor">@color/grey_dark</item>
+    </style>
+
+    <!--<style name="home_text_3">
+        <item name="android:textSize">@dimen/home_function_text_size</item>
+        <item name="android:textColor">@color/info_second</item>
+    </style>-->
+
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+  <!--  &lt;!&ndash; 商品列表文字的样式 &ndash;&gt;
+    <style name="product_list_text">
+        <item name="android:textSize">@dimen/product_list_text_font_size</item>
+        &lt;!&ndash;<item name="android:textColor">@color/grey_dark</item>  &ndash;&gt;
+        <item name="android:textColor">@color/black</item>
+    </style>-->
+
+</resources>

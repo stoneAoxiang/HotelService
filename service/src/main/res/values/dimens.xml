@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- 注册和登录按钮字体的大小 -->
+    <dimen name="register_login_font_size">16.0sp</dimen>
+
+    <!-- 注册和登录按钮的高度  -->
+    <dimen name="register_login_hight">50.0dp</dimen>
+
+    <dimen name="debug_tool_width">200dp</dimen>
+    <dimen name="debug_tool_item_height">30dp</dimen>
+    <dimen name="product_list_text_font_size">14sp</dimen>
+
+    <dimen name="text_font_size">16sp</dimen>
+    <dimen name="app_title_size">18sp</dimen>
+
+    <dimen name="function_text_size">14dp</dimen>
+
+    <dimen name="pop_window_height">280dp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+
+    <!--<dimen name="home_function_text_size">16sp</dimen>-->
+    <dimen name="home_function_border">0.5dp</dimen>
+    <dimen name="home_function_height">80dp</dimen>
+    <dimen name="home_function_padding_top">20dp</dimen>
+
+    <dimen name="slider_adv_hight">180dp</dimen>
+</resources>

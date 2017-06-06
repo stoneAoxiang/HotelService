@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <GridView
+        android:id="@+id/county_gv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/grey"
+        android:cacheColorHint="#00000000"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@color/base_color_light"
+        android:numColumns="4"
+        android:padding="10dp"
+        android:verticalSpacing="15dp" >
+    </GridView>
+
+    <ImageView
+        android:id="@+id/division_one"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/county_gv"
+        android:background="@color/base_color" />
+
+    <GridView
+        android:id="@+id/community_gv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/division_one"
+        android:background="@color/grey"
+        android:cacheColorHint="#00000000"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@color/base_color_light"
+        android:numColumns="3"
+        android:padding="10dp"
+        android:verticalSpacing="15dp" >
+    </GridView>
+
+    <TextView
+        android:id="@+id/bottom_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/community_gv"
+        android:background="@mipmap/transparent_bc"
+        android:text="@null" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/return_back"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/white_click_bg"
+        android:padding="10dp"
+        android:src="@mipmap/return_back" />
+
+    <TextView
+        android:id="@+id/activity_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/base_color"
+        android:textSize="@dimen/app_title_size" />
+
+    <ImageView
+        android:id="@+id/write_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/white_click_bg"
+        android:padding="8dp"
+        android:src="@mipmap/write"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/submit_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:background="@drawable/white_click_bg"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="@color/base_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/white_click_bg"
+        android:gravity="center"
+        android:src="@mipmap/favorites_unsel"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/user_register"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/white_click_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/register"
+        android:textColor="@color/base_color"
+        android:textSize="@dimen/app_title_size"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background_grey" />
+
+
+</RelativeLayout>

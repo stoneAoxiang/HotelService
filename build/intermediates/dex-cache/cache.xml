@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.android\build-cache\a0a55acc782f4edbcbb8bb4fe8c1018ae77ed1b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cbff5bcdfb75721cc90be2ade29e199388686e75">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\classes_38c8a82d3f0f96fe64bf94ed6da9753bcec13fd8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\okio-1.3.0_91a7287b92de24f954c768b0db1971d2b2788c99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.jakewharton.timber\timber\3.1.0\3ab2aedaeb4bfa698d0021cb843b2040fbf57fc\timber-3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03ab2aedaeb4bfa698d0021cb843b2040fbf57fc">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\timber-3.1.0_5dad73af9b00cf679dca24c80ef702da5e6203ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\javax.inject-1_0850a49a2777ac66dcb089b70e47a3a22bf7e4df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\HotelService\service\build\intermediates\incremental-runtime-classes\custom\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10000\instant-run_d7da772bcec2114f37137c9feb9ce94d28520c9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\retrofit-1.9.0_939252f34ba7fe8d45d14bec9bc142c9af2d67c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.android\build-cache\528bb985a310d246303f82c7c5a9f81ebe1151f5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\classes_bf791ecc52eacbae15a747f3430ee991d3c221af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\HotelService\service\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3a7127079ec88fd22c96c4ccadfec2fd3d28998">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\2\volley_fd88d4f759aec58375d1c6f0cec43dc4ef039d3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.android\build-cache\975b3822318557f6cacb897f4f572a98af7f756a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\classes_fd2152f308c098f74f3ced9dbcdc7e9b73adaad1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\library-2.4.0_9b5459733f11a6a507d1698dc902c7fe5304666a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\HotelService\service\libs\UPPayAssistEx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="794cdc7e62ed3e9f73afd5d9abb97fa30f07ccc9">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\2\UPPayAssistEx_ef610c51f309770c8207e207aef6f2a28bc53945\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\devloper tools\android-studio\gradle\m2repository\com\squareup\javawriter\2.5.0\javawriter-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\javawriter-2.5.0_8c0533b143a67da13f03f73c10b43dbdce463ed4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.24.0\42dab493b8f74b164e082f281480c9d493ff89da\rxandroid-0.24.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42dab493b8f74b164e082f281480c9d493ff89da">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\rxandroid-0.24.0_16b0b080338cbc7510b10b3a7a93f93a2dc97f97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.5\7941cd2c2c8ec006800d75c35f8a9dacf892ab93\otto-1.3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7941cd2c2c8ec006800d75c35f8a9dacf892ab93">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\otto-1.3.5_4daf98a1f80fd06f986fbe1821dcc67a5e77551f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\HotelService\service\libs\baidumapapi_v3_0_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b39155228374e50c537705e9bfc10d3f69c2397a">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\2\baidumapapi_v3_0_0_871800788b8653af370b7d39a20e9dab22fe2f7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.android\build-cache\85cb40d4896e6a6420d54370c6250f9825a91ef2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\classes_e4dce14638cab7b6be5e398ca04caa9039828e79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\15.0\ed727a8d9f247e2050281cb083f1c77b09dcb5cd\guava-15.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\guava-15.0_1569de54004a83f2053d2f7b98dec4bef47628bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\support-annotations-22.2.1_8a75422f99a7cbb00d6f0f5de50925177aaa021f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\HotelService\service\libs\locSDK_3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09224a1883da8b5bd37e766f4fab80570d879898">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\2\locSDK_3.1_4aaf88f9f58f37a4139be87a994b0de178041262\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.4\a607b0e12d2de769dc219e00b60a9b3d9e730d\rxjava-1.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00a607b0e12d2de769dc219e00b60a9b3d9e730d">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\rxjava-1.0.4_c7bf6e2d149f5e3a5711080a9a4419b00223eef4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\gson-2.3.1_9fbe4d29b987e04c92e5884219b58c8d4840df85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\HotelService\service\build\intermediates\incremental-classes\custom\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e46715908afc22fcdf7b73a051339f35e88f0178">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10000\instant-run-bootstrap_96ba4b770d2bdb505e9bc03afaccf6e559b97617\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_project\HotelService\service\libs\jpush-sdk-release1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c1b3d49baa7c2b66461fe638376de02c1aeccb6">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\2\jpush-sdk-release1.7.0_904fa983d607a6b26f4491e982a8cd6c1c68d9a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.3.0\2e7bc7033dc2c8423e661224171b3133fb155b28\okhttp-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\okhttp-2.3.0_b0fd1fc43c42e6e21fe5b56d31147d183ace3211\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.joanzapata.android\base-adapter-helper\1.1.11\d86e2fb7131ec0bb37fab3421b9d27727200fda\base-adapter-helper-1.1.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d86e2fb7131ec0bb37fab3421b9d27727200fda">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\base-adapter-helper-1.1.11_e4dc803a20fc9d37e94618c5d4c25100dd6ceef1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.android\build-cache\1f6cb278d391809b805adfda3f02bab22b909255\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\classes_68ebb304bd8e0ca67d92e28c98ab2e06d98b01d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.squareup.dagger\dagger-compiler\1.2.2\fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57\dagger-compiler-1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\dagger-compiler-1.2.2_f0688f9f933136babecc501886c2b3f8dab50b1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\picasso-2.5.2_86f948f230e4501809fb2cd3266da49581f19586\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.android\build-cache\975b3822318557f6cacb897f4f572a98af7f756a\output\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\internal_impl-22.2.1_888d378162a30e4cb438a71d997cfa8b97eb86d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.squareup.dagger\dagger\1.2.2\e8f912ee19ad84958510883ea191135276b091f8\dagger-1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\dagger-1.2.2_79bc13af41dd771c1c3cfb7ed4604743a2872d3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aoxiang\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="D:\android_project\HotelService\service\build\intermediates\transforms\dex\custom\folders\1000\10\butterknife-6.1.0_580f3884f6ce2511dd70fda75d3b50218ac8f690\classes.dex" />
+    </item>
+
+</items>

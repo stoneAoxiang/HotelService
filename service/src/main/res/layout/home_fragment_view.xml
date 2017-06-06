@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/home_top_view" />
+
+    <com.hotel.service.ui.custom.PullToRefreshView
+        android:id="@+id/refreshable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.hotel.service.ui.custom.ScrollViewExtend
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_grey"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white">
+
+
+                    <com.daimajia.slider.library.SliderLayout
+                        android:id="@+id/home_slider_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/slider_adv_hight" />
+
+                    <com.daimajia.slider.library.Indicators.PagerIndicator
+                        android:id="@+id/home_indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/home_slider_layout"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="center"
+                        app:selected_drawable="@mipmap/on_cirele"
+                        app:unselected_drawable="@mipmap/off_cirele" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/adv_click_refresh"
+                    style="@style/text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:drawableRight="@mipmap/click_refresh"
+                    android:gravity="center"
+                    android:text="@string/click_refresh"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/home_function_border"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_home_function_bg"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/home_estate_fee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:padding="15dp" />
+
+                        <TextView
+                            android:id="@+id/estate_fee_bt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/red_shape_click_bg"
+                            android:text="缴费查询"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="@dimen/home_function_border"
+                        android:layout_height="match_parent"
+                        android:background="@color/background_grey" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/home_function_border"
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/product_preferential"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:drawablePadding="10dp"
+                            android:drawableRight="@mipmap/product_preferential"
+                            android:gravity="center_vertical"
+                            android:padding="3dp" />
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/home_function_border"
+                            android:background="@color/background_grey" />
+
+                        <TextView
+                            android:id="@+id/good_pruduct"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:drawablePadding="10dp"
+                            android:drawableRight="@mipmap/good_pruduct"
+                            android:gravity="center_vertical"
+                            android:padding="3dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:text="物业管家"
+                        android:textColor="@color/grey_dark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/property_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="更多〉"
+                        android:textColor="@color/grey_dark"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_function_border"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:id="@+id/property_services_id"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_click_bg"
+                        android:drawableTop="@drawable/property_services_click"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/property_repairs_id"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_click_bg"
+                        android:drawableTop="@mipmap/property_repairs_on"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/car_fee"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_click_bg"
+                        android:drawableTop="@mipmap/car_fee"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/complaint_suggestion_id"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_click_bg"
+                        android:drawableTop="@mipmap/complaint_suggestion_on"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@android:color/transparent" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:text="生活管家"
+                        android:textColor="@color/grey_dark"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/life_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="更多〉"
+                        android:textColor="@color/grey_dark"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_function_border"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/electric_rinse"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/electric_rinse" />
+
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/baby_sitter" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/family_education" />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/dry_clean" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/hourly_worker" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!--<ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:id="@+id/recruit_id"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/home_function_border"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_home_function_bg"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/recruit"
+                        android:gravity="center_vertical"
+                        android:padding="15dp" />
+
+
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/lottery_id"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/home_function_border"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_home_function_bg"
+                        android:drawablePadding="10dp"
+                        android:drawableRight="@mipmap/lottery"
+                        android:gravity="center_vertical"
+                        android:padding="15dp" />
+
+
+                </LinearLayout>-->
+
+            </LinearLayout>
+
+        </com.hotel.service.ui.custom.ScrollViewExtend>
+
+    </com.hotel.service.ui.custom.PullToRefreshView>
+
+</LinearLayout>

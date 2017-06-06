@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_grey"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_layout"
+        layout="@layout/top_menu" />
+
+    <LinearLayout
+        android:id="@+id/offer_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/offer_name"
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/offer_select"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/offer_draw_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/selector_job_title_draw_right" />
+    </LinearLayout>
+
+
+    <com.hotel.service.ui.custom.PullToRefreshView
+        android:id="@+id/refreshable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.hotel.service.ui.custom.ScrollViewExtend
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.hotel.service.ui.custom.HomeListView
+                    android:id="@+id/content_gv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@color/background_grey"
+                    android:dividerHeight="3dp" />
+
+                <include layout="@layout/process_bar" />
+
+            </LinearLayout>
+        </com.hotel.service.ui.custom.ScrollViewExtend>
+    </com.hotel.service.ui.custom.PullToRefreshView>
+
+
+</LinearLayout>

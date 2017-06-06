@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <include
+            android:id="@+id/top_layout"
+            layout="@layout/top_menu" />
+
+        <!--<TextView
+            android:id="@+id/project_name_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="6dp"
+            android:gravity="bottom|left"
+            style="@style/text_style"
+            android:textColor="@color/black"
+            android:layout_below="@+id/top_layout"
+            android:text="投诉建议项目"/>-->
+
+        <LinearLayout
+            android:id="@+id/project_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/top_layout"
+            android:layout_margin="6dp"
+            android:background="@drawable/edit_coner_style"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/project_name"
+                style="@style/text_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/project_name"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/project_draw_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/selector_job_title_draw_right" />
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/repair_community_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="6dp"
+            android:gravity="bottom|left"
+            style="@style/text_style"
+            android:textColor="@color/black"
+            android:layout_below="@+id/project_name_layout"
+            android:text="投诉建议"/>-->
+
+        <EditText
+            android:id="@+id/repair_community"
+            style="@style/text_style"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/project_name_layout"
+            android:layout_margin="6dp"
+            android:background="@drawable/edit_coner_style"
+            android:gravity="top"
+            android:hint="请输入投诉详情" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/repair_community"
+            android:layout_margin="6dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <GridView
+                    android:id="@+id/photo_img_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:columnWidth="80dp"
+                    android:horizontalSpacing="2dp"
+                    android:numColumns="auto_fit"
+                    android:stretchMode="spacingWidth"
+                    android:verticalSpacing="10dp" />
+            </ScrollView>
+
+            <ImageView
+                android:id="@+id/take_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_shape_click_bg"
+                android:src="@mipmap/photo_pic" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/commit"
+            style="@style/text_style"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/red_shape_click_bg"
+            android:text="提交投诉建议"
+            android:textColor="@color/button_text_click_color" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_menu" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/position"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="left|center"
+                android:text="职位"
+                android:padding="5dp"
+                android:textColor="@color/grey_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/offer_time"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:gravity="left|center" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/background_grey" />
+
+            <TextView
+                android:id="@+id/salary"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@+id/position"
+                android:gravity="left|center"
+                android:padding="5dp"
+                android:text="salary"
+                android:textColor="@color/base_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/company_name"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="company_name"
+                android:padding="5dp"
+                android:gravity="left|center" />
+
+            <TextView
+                android:id="@+id/work_address"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:text="work_address"
+                android:gravity="left|center" />
+
+
+            <TextView
+                android:id="@+id/people_num"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:text="people_num"
+                android:gravity="left|center" />
+
+            <TextView
+                android:id="@+id/education"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:text="education"
+                android:gravity="left|center" />
+
+            <TextView
+                android:id="@+id/work_experience"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:text="work_experience"
+                android:gravity="left|center" />
+
+            <TextView
+                android:id="@+id/phone"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:text="phone"
+                android:gravity="left|center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_grey"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="@string/offer_descript"
+                android:textColor="@color/grey_dark"
+                android:textSize="18sp" />
+
+            <WebView
+                android:id="@+id/work_details"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

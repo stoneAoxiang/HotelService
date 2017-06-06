@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    def Properties version = new Properties()
+    version.load(new FileInputStream(file('version.properties')))
+    signingConfigs {
+        releaseSign {
+            storeFile file('../lilang_key')
+            keyAlias 'lilang'
+            keyPassword '62489608'
+            storePassword '62489608'
+        }
+    }
+    compileSdkVersion 22
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.hotel.service"
+        minSdkVersion 14
+        targetSdkVersion 22
+        signingConfig signingConfigs.releaseSign
+        buildConfigField("String", "BUILD_TIME", "\"" + new Date().format("yyyy-MM-dd HH:mm:ss", TimeZone.getTimeZone("GMT+8")) + "\"")
+
+        buildConfigField("String", "BUILD_NUMBER", "\"" + System.getenv()['USER'] + "\"")
+        versionCode version['major'].toInteger() * 1000 +
+                version['patch'].toInteger() * 100 +
+                version['build'].toInteger()
+        versionName "${version['major']}.${version['patch']}"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.releaseSign
+        }
+        preRelease {
+            signingConfig signingConfigs.releaseSign
+            debuggable true
+            minifyEnabled false
+        }
+        custom {
+            debuggable true
+            signingConfig signingConfigs.releaseSign
+        }
+    }
+    lintOptions {
+        abortOnError = false
+    }
+    productFlavors {
+    }
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //***********************ping++支付****************************
+    //compile(name: 'bdwallet_pay_sdk', ext: 'aar')
+    //compile(name: 'libpingpp', ext: 'aar')
+    //compile(name: 'libone', ext: 'aar')
+    //***************************************************
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.android.support:support-v4:22.2.0'
+    compile 'io.reactivex:rxandroid:0.24.0'
+    compile 'com.squareup.dagger:dagger:1.2.2'
+    compile 'com.squareup.dagger:dagger-compiler:1.2.2'
+    compile 'com.jakewharton.timber:timber:3.1.0'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.daimajia.slider:library:1.1.5'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.joanzapata.android:base-adapter-helper:1.1.11'
+    compile 'com.squareup:otto:1.3.5'
+    compile 'com.sharyuke:apptool:1.2.8@aar'
+    compile 'com.android.support:recyclerview-v7:22.+'
+    compile files('libs/universal-image-loader-1.9.3.jar')
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}

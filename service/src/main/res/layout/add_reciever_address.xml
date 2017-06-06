@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/top_navigat"
+        layout="@layout/top_menu" />
+
+    <TextView
+        android:id="@+id/recevie_address_tv"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/top_navigat"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/recevie_address" />
+
+    <EditText
+        android:id="@+id/recevie_address"
+        style="@style/text_style"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/top_navigat"
+        android:layout_toRightOf="@+id/recevie_address_tv"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp" />
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/recevie_address_tv"
+        android:background="@color/background_grey" />
+
+    <TextView
+        android:id="@+id/recevie_name_tv"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/recevie_name" />
+
+    <EditText
+        android:id="@+id/recevie_name"
+        style="@style/text_style"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_1"
+        android:layout_toRightOf="@+id/recevie_name_tv"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp" />
+
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/recevie_name_tv"
+        android:background="@color/background_grey" />
+
+    <TextView
+        android:id="@+id/recevie_tel_tv"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_2"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:hint="@string/recevie_tel" />
+
+    <EditText
+        android:id="@+id/recevie_tel"
+        style="@style/text_style"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_2"
+        android:layout_toRightOf="@+id/recevie_tel_tv"
+        android:background="@null"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:paddingLeft="5dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/iv_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/recevie_tel_tv"
+        android:background="@color/background_grey" />
+
+
+    <TextView
+        android:id="@+id/default_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_3"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="设置为默认地址"
+        android:textColor="@color/grey_dark"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_3"
+        android:layout_toRightOf="@+id/default_tv"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/default_checked"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/checkbox_custom_define_2"
+            android:button="@null"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/default_tv"
+        android:background="@color/background_grey" />
+
+
+    <TextView
+        android:id="@+id/save_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/red_shape_click_bg"
+        android:gravity="center"
+        android:text="@string/save_address"
+        android:textColor="@color/white_text_click_color" />
+
+</RelativeLayout>
